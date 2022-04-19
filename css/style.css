@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: #c057e0;
+}
+.anime,.character, .quotes {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.75rem;
+}
+label {
+    font-size: 1.25rem;
+}
+.hidden {
+    display: hidden;
+}
+li {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: '-';
+}
+.anime-photo {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 4%;
+}
