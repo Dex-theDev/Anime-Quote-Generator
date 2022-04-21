@@ -5,7 +5,8 @@
 
 //const choice = document.querySelectorAll('option:checked')
 //assign selected choice to a variable, in a dropdown menu, target the select tag first, then use option:checked
-document.querySelector('.anime-text').toggle
+
+
 
 
 document.querySelector('button').addEventListener('click', getQuote)
@@ -14,6 +15,11 @@ function getQuote(){
    
     const choice = document.querySelector('select')
 const selected = choice.value
+const text = document.querySelectorAll('#hidden')
+
+text.forEach(e => e.style.display = 'block')
+
+
     
     const url = `https://animechan.vercel.app/api/quotes/character?name=${selected}`
     fetch(url)

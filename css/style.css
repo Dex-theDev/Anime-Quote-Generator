@@ -4,6 +4,7 @@ body {
 }
 .anime,.character, .quotes {
     font-size: 1.5rem;
+    
 }
 h4 {
     font-size: 1.75rem;
@@ -11,14 +12,15 @@ h4 {
 label {
     font-size: 1.25rem;
 }
-.hidden {
-    display: hidden;
+#hidden {
+    display: none;
 }
 li {
     width: 40%;
     text-align: center;
     margin: 0 auto;
-    list-style-type: '-';
+    list-style-type: none;
+    padding-bottom: 1em;
 }
 .anime-photo {
     width: 45%;
