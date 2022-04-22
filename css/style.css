@@ -1,16 +1,29 @@
 body {
     text-align: center;
-    background-color: #c057e0;
 }
 .anime,.character, .quotes {
     font-size: 1.5rem;
-    
+    color: white;
+
+    font-family: 'Bangers', cursive;
+}
+h1 {
+    color: white;
+    font-family:  'Permanent Marker', cursive;
 }
 h4 {
     font-size: 1.75rem;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
 }
 label {
     font-size: 1.25rem;
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+button, select {
+    font-family: 'Changa', sans-serif;
+    font-weight: bolder;
 }
 #hidden {
     display: none;
@@ -21,6 +34,12 @@ li {
     margin: 0 auto;
     list-style-type: none;
     padding-bottom: 1em;
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+.anime-text,.character-text{
+    color: white;
+    font-family: 'Changa', sans-serif;
 }
 .anime-photo {
     width: 45%;
@@ -29,3 +48,11 @@ li {
     border: solid 2px black;
     border-radius: 4%;
 }
+#myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
